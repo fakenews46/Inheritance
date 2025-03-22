@@ -15,6 +15,10 @@ public class StoreToRent {
     private String floorNumber;
     private boolean available;
 
+    public StoreToRent(boolean loanRequired, double loanAmount, int loanPaymentTerm) {
+        //TODO Auto-generated constructor stub
+    }
+
     public String getStoreName() {
         return storeName;
     }
